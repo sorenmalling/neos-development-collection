@@ -288,7 +288,8 @@ class SitesController extends AbstractModuleController
                 $this->translator->translateById('sites.invalidPackageKey.title', [], null, null, 'Modules', 'Neos.Neos'),
                 Message::SEVERITY_ERROR,
                 [],
-                1412372021);
+                1412372021
+            );
             $this->redirect('index');
         }
         // this should never happen, but if somebody posts unexpected data to the form, it should stop here and return some readable error message

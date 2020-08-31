@@ -211,7 +211,7 @@ class LoginController extends AbstractAuthenticationController
                 Message::SEVERITY_ERROR,
                 [],
                 $exception === null ? 1347016771 : $exception->getCode()
-                );
+            );
         }
     }
 
